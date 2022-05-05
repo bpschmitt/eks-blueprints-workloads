@@ -11,8 +11,8 @@ spec:
     namespace: team-schmitt
     server: {{ .Values.spec.destination.server }}
   source:
-    repoURL: https://github.com/CarmenAPuccio/GeoLocationAPI
-    path: templates
+    repoURL: https://github.com/kubernetes/examples
+    path: guestbook/all-in-one
     targetRevision: main
   syncPolicy:
     automated:
